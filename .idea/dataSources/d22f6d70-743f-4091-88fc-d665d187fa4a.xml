@@ -1013,7 +1013,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="294" parent="1" name="blog">
-      <LastIntrospectionLocalTimestamp>2024-08-19.07:56:54</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-08-20.08:27:51</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="book">
@@ -1082,35 +1082,5 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <user id="314" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="315" parent="294" name="blog">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <column id="316" parent="315" name="id">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="317" parent="315" name="title">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="318" parent="315" name="content">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <index id="319" parent="315" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="320" parent="315" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
   </database-model>
 </dataSource>

@@ -11,13 +11,11 @@ public class Blog {
     private String title;
     private String content;
 
-    public Blog() {
-    }
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
 
-    public Blog(Long id, String title, String content) {
-        this.id = id;
-        this.title = title;
-        this.content = content;
+    public Blog() {
     }
 
     public Long getId() {
